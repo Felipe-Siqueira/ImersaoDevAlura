@@ -61,7 +61,6 @@ function obtemAtributoSelecionado() {
 }
 
 function jogar() {
-  var cartas2 = new cartas();
   console.log("chamou");
   var atributoSelecionado = obtemAtributoSelecionado();
   var divResultado = document.getElementById("resultado");
